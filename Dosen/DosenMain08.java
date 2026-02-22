@@ -21,5 +21,8 @@ public class DosenMain08 {
         int masaKerja2 = d2.hitungMasaKerja(2026);
         System.out.println("Masa kerja dosen " + masaKerja2 + " tahun");
 
+        System.out.println();
+
     }
+    
 }

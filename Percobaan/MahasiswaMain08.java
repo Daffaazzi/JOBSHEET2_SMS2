@@ -18,7 +18,7 @@ public class MahasiswaMain08 {
         mhs2.tampilkanInformasi();
 
         Mahasiswa08 mhs3 = new Mahasiswa08("Daffa Azzi", "254107060126", 3.35, "SI 1E");
-        mhs3.updateIpk(3.80);
+        mhs3.updateIpk(3.40);
         mhs3.tampilkanInformasi();
     }
 }

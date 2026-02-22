@@ -5,9 +5,18 @@ import java.util.Scanner;
 public class Mahasiswa08 {
     String nama;
     String nim;
-    String kelas;
     double ipk;
+    String kelas;
 
+    public Mahasiswa08() {
+    }
+
+    public Mahasiswa08(String nama, String nim, double ipk, String kelas) {
+        this.nama = nama;
+        this.nim = nim;
+        this.ipk = ipk;
+        this.kelas = kelas;
+    }
     void tampilkanInformasi() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: "+ nim);
